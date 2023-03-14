@@ -1,0 +1,52 @@
+@import "./reset.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container 
+{
+    height: 100vh;
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+h1
+{
+   text-align: center;  
+   color: #fff;
+   margin-bottom: 70px;
+   font-size: 45px;
+   letter-spacing: 2px;
+}
+.search-field {
+    height: 50px;
+    padding: 10px;
+    font-weight: 16px;
+    font-size: 20px;
+    color: #f4433f;
+    background: #838383;
+}
+.field{
+    height: 500px;
+    width: 680px;
+    color: #fff;
+    background: #838383;
+}
+.search-btn{
+    height: 50px;
+    width: 150px;
+    font-weight: 16px;
+    font-size: 20px;
+    background: #ffa500;
+    border: none;
+    color: #fff;
+  
+}
+.search-btn:hover{
+    background: #bb0d00;
+    cursor: pointer;
+}

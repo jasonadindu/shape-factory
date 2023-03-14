@@ -1,8 +1,8 @@
 ### SHAPE FACTORY
 
 
-### Demo
-Click [here](https://jasonadindu.github.io/shape-factory/) to play 
+### TEST
+Click [here](https://jasonadindu.github.io/shape-factory/) to create shape with your favourite colour 
 
 <br />
 
