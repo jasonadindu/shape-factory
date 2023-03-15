@@ -1,0 +1,106 @@
+@import "./reset.css";
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .game-board {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 80vh;
+    background-color: black;
+    border-radius: 10px;
+  
+  }
+  
+  .inner-game-board {
+    background-color: rgb(56, 54, 54);  
+    border-radius: 10px;
+    height: 70vh;
+    width: 50vw;
+    
+  }
+  
+  h1{
+    font-size: x-large;
+    text-align: center;
+    
+  }
+  
+  .options-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .chooseShapeType, .chooseShapeColor , button{
+    margin: 0 20px;
+  
+  }
+  
+  select{
+    background-color: grey;
+    height: 2em;
+  }
+  
+  button {
+    background-color: rgb(199, 141, 41);
+    border-radius: 10px;
+    min-width: 5rem;
+    min-height: 2rem;
+  }
+  
+  .factory-store {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    
+    width: 100%;
+    height: 74%;
+    background-color: grey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .factory-space-1, 
+  .factory-space-2, 
+  .factory-space-3, 
+  .factory-space-4, 
+  .factory-space-5, 
+  .factory-space-6, 
+  .factory-space-7, 
+  .factory-space-8,
+  .factory-space-9, 
+  .factory-space-10, 
+  .factory-space-11, 
+  .factory-space-12,
+  .factory-space-13,
+  .factory-space-14, 
+  .factory-space-15, 
+  .factory-space-16, 
+  .factory-space-17, 
+  .factory-space-18, 
+  .factory-space-19, 
+  .factory-space-20 {
+    display: block;  
+    width: 18.5%;
+    height: 23%;
+  }
+  
+  
+  #circle{
+    border-radius: 50%;
+  }
+  
+  
