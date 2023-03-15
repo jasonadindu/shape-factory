@@ -1,7 +1,7 @@
 ### SHAPE FACTORY
 
 
-### TEST
+### TEST SHAPES
 Click [here](https://jasonadindu.github.io/shape-factory/) to create shape with your favourite colours 
 
 <br />
