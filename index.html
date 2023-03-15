@@ -16,35 +16,52 @@
     <script src="./assets/script/index.js" defer></script>
 </head>
 <body>
-    <main>
-    <div class="container">
-        <form>
-        <h1>Shape Factory</h1>
-        <div class="form-box">
-            <input class="search-field skills" name="search" type="text" 
-            placeholder="#"/>
-
-            <input class="search-field skills" name="location" type="text" 
-            placeholder="#"/>
-
-            <button class="search-btn" type="button">Create</button>
-
+    <div class="game-board">
+        <div class="inner-game-board">
+          <h1>Shape Factory</h1>
+          <div class="options-container">
+            <div class="chooseShapeType">
+              <label for="shapeType">Shape Type</label>
+              <select name="shapeType" id="shape-type">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+              </select>
+            </div>
+            <div class="chooseShapeColor">
+              <label for="shapeColor">Shape Color</label>
+              <select name="shapeColor" id="shape-color">
+                <option value="#0f9">Blue</option>
+                <option value="#9f0">Green</option>
+                <option value="#f90">Orange</option>
+                <option value="#f09">Pink</option>
+                <option value="#90f">Purple</option>
+              </select>
+            </div>
+            <button id="create-new-shape" type="button">Create</button>
+          </div>
+          <div class="factory-store">
+            <div id="factory-space-1"></div>
+            <div class="factory-space-2"></div>
+            <div class="factory-space-3"></div>
+            <div class="factory-space-4"></div>
+            <div class="factory-space-5"></div>
+            <div class="factory-space-6"></div>
+            <div class="factory-space-7"></div>
+            <div class="factory-space-8"></div>
+            <div class="factory-space-9"></div>
+            <div class="factory-space-10"></div>
+            <div class="factory-space-11"></div>
+            <div class="factory-space-12"></div>
+            <div class="factory-space-13"></div>
+            <div class="factory-space-14"></div>
+            <div class="factory-space-15"></div>
+            <div class="factory-space-16"></div>
+            <div class="factory-space-17"></div>
+            <div class="factory-space-18"></div>
+            <div class="factory-space-19"></div>
+            <div class="factory-space-20"></div>
+          </div>
         </div>
-        &nbsp;
-
-        <div class="form-box2">
-            <input class="field" name="box" type="text" 
-            placeholder="#"/>
-        </div>
-
-
-    </form>
-
-    </div>
-
-    
-    </main>
-    
-</body>
-</html>
-    
+      </div>
+    </body>
+  </html>
